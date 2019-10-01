@@ -8,8 +8,7 @@ int main()
     int i;
     pid_t pid = fork();
 
-    if (pid < 0)
-    {
+    if (pid < 0){
         perror("fork");
         return 0;
     }
