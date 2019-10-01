@@ -20,7 +20,6 @@ int main()
     {
         printf("pid do Pai: %d\n", getpid());
     }
-
     printf("Codigo executado por ambos os processos\n");
     scanf("%d", i);
 
