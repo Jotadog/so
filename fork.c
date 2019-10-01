@@ -3,8 +3,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-int main()
-{
+int main() {
     int i;
     pid_t pid = fork();
 
