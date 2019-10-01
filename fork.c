@@ -12,6 +12,7 @@ int main()
         perror("fork");
         return 0;
     }
+    
     if (pid == 0)
     {
         printf("pid do Filho: %d\n", getpid());
