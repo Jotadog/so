@@ -16,8 +16,7 @@ int main()
     {
         printf("pid do Filho: %d\n", getpid());
     }
-    else
-    {
+    else {
         printf("pid do Pai: %d\n", getpid());
     }
 
